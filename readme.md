@@ -5,7 +5,7 @@
 
 ## [>>> Probar el Curriculum Vitae <<<](https://desarrolladormdpi.github.io/CVM/)
 
-![Imagen de la web](layout/open-graph/CV%20M.png)
+![Imagen de la web](layout/open-graph/CV-M.png)
 
 ### __Consigna__
 
