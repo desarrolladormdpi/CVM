@@ -3,7 +3,7 @@
 ### Academia Ticmas
 ### Curso: Primeros pasos del Desarrollo Front End
 
-## [>>> Probar el Curriculum Vitae <<<]( URL DE MI PAGINA )
+## [>>> Probar el Curriculum Vitae <<<](https://desarrolladormdpi.github.io/CVM/)
 
 ![Imagen de la web](layout/open-graph/CV%20M.png)
 
