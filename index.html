@@ -1,0 +1,123 @@
+<!-- Proyecto Final Integrador -->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- Unicode (Codificación de caracteres) -->
+        <meta charset="UTF-8">
+        <!-- Compatibilidad con los navegadores Internet Explorer y Microsoft Edge -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Web Responsivo (Web Adaptable) -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Titulo -->
+        <meta name="title" content="CV M">
+        <!-- Descripción -->
+        <meta name="description" content="Curriculum Vitae realizado con HTML, CSS y JavaScript, para el curso Front End de argentina programa 4.0">
+        <!-- Palabra Clave -->
+        <meta name="keywords" content="Curriculum Vitae, HTML, CSS,JavaScript, Argentina Programa 4.0">
+        <!-- Autor -->
+        <meta name="author" content="Matias">
+        <!-- Derechos de Autor -->
+        <meta name="copyright" content="Matias">
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="layout/favicon/favicon.ico">
+        <!-- Open Graph -->
+        <meta property="og:title" content="CV M">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="">
+        <meta property="og:image" content="layout/open-graph/CV M.png">
+        <meta property="og:description" content="Curriculum Vitae realizado con HTML, CSS y JavaScript, para el curso Front End de argentina programa 4.0">
+        <!--Incluir CSS-->
+        <link rel="stylesheet" href="state/styles.css">
+        <title>CV M</title>
+    </head>
+    <body class="body">
+        <!-- Titulo y Entrada de Dato Nombre y Apellido -->
+        <header class="header">
+            <section class="header__section">
+                <h1 class="header__h1" id="header__h1">Nombre y Apellido</h1>
+                <input type="text" class="header__input" id="header__input" placeholder="Nombre y Apellido">
+            </section>
+        </header>
+
+        <main class="main">
+            <!-- Foto -->
+            <figure class="main__figure">
+                <img src="layout/fotos/Foto-Hombre.jpg" alt="Imagen Personal" class="main__img">
+            </figure>
+
+            <!-- Datos Perfil Personal -->
+            <section class="main__section-personal">
+                <h2 class="main__h2">Perfil Personal</h2>
+                <p class="main__p">Soy un programador web con experiencia contribuyendo desde el Front-End al desarrollo de aplicaciones web.</p>
+            </section>
+
+            <!-- Datos Contacto -->
+            <section class="main__section-contacto">
+                <h2 class="main__h2">Contacto</h2>
+                <ol class="main__ol">
+                    <li class="main__li">
+                        <div class="pin icon"></div>
+                        <p class="main__p-contacto">Argentina</p>
+                    </li>
+                    <li class="main__li">
+                        <div class="mobile icon"></div>
+                        <p class="main__p-contacto">2675-000000</p>
+                    </li>
+                    <li class="main__li">
+                        <div class="mail icon"></div>
+                        <p class="main__p-contacto">desarrollador@gmail.com</p>
+                    </li>
+                </ol>
+            </section>
+
+            <!-- Datos Habilidades -->
+            <section class="main__section-habilidad">
+                <h2 class="main__h2">Habilidades</h2>
+                <ul class="main__ul">
+                    <li class="main__li">Capacidad analítica.</li>
+                    <li class="main__li">Creatividad.</li>
+                    <li class="main__li">Iniciativa.</li>
+                    <li class="main__li">Liderazgo.</li>
+                    <li class="main__li">Resolución de problemas.</li>
+                    <li class="main__li">Trabajo bajo presión.</li>
+                    <li class="main__li">Trabajo en equipo.</li>
+                </ul>
+            </section>
+
+            <!-- Datos Historial Académico -->
+            <section class="main__section-historial" id="main__section-historial">
+                <h2 class="main__h2-historico-conocimiento">Historial Académico</h2>
+                <h3 class="main__h3">Secundario</h3>
+                <ul class="main__ul">
+                    <li class="main__li">Escuela Técnica: Comunicación Arte y Diseño</li>
+                </ul>
+
+                <h3 class="main__h3">Terciario</h3>
+                <ul class="main__ul">
+                    <li class="main__li">Técnico en Informática.</li>
+                    <li class="main__li">Técnico en Robótica con Orientación IA.</li>
+                    <li class="main__li">Desarrollo Web.</li>
+                </ul>
+            </section>
+
+            <!-- Datos Conocimientos -->
+            <section class="main__section-conocimiento" id="main__section-conocimiento">
+                <h2 class="main__h2-historico-conocimiento">Conocimientos</h2>
+                <ul class="main__ul">
+                    <li class="main__li">Reparación, ensamblador de ordenadores.</li>
+                    <li class="main__li">Desarrollo de paginas web Front-End.</li>
+                    <li class="main__li">Análisis de rendimiento de aplicaciones desarrolladas.</li>
+                    <li class="main__li">Lenguajes de programación: c, c++, python, html, css, javascript.</li>
+                </ul>
+            </section>
+        </main>
+
+        <!-- Pie de Pagina -->
+        <footer class="footer">
+            <small class="footer__copyright">&copy; Matias 2023</small>
+        </footer>
+
+        <!--Incluir JS-->
+        <script src="modules/script.js"></script>
+    </body>
+</html>

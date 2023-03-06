@@ -1,0 +1,25 @@
+/* main__section (Contacto) */
+.main__ol
+{
+    list-style: none;
+}
+/* . */
+.main__li
+{
+    margin: 0rem 0rem 0rem 1.5rem;
+}
+/* . */
+.main__p-contacto
+{
+    margin: 0rem 0rem 0rem 1.5rem;
+}
+
+/* 320 480 768 960 1024 1328 */
+/* Breakpoints de resolución para tablet */
+@media screen and (min-width: 768px)
+{
+    .main__section-contacto
+    {
+        width: 320px;
+    }
+}

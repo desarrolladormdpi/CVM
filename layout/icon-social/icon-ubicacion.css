@@ -1,0 +1,37 @@
+/* Insertar el icono ubicación de la siguiente forma */
+/* <div class="pin icon"></div> */
+/* <div class="pin icon filled"></div> */
+.pin.icon {
+    color: #333333;
+    position: absolute;
+
+    margin-left: 4px;
+    margin-top: 2px;
+    width: 12px;
+    height: 12px;
+    border: solid 1px currentColor;
+    border-radius: 7px 7px 7px 0;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.pin.icon:before {
+    content: '';
+    position: absolute;
+
+    width: 4px;
+    height: 4px;
+    border: solid 1px currentColor;
+    border-radius: 3px;
+    left: 3px;
+    top: 3px;
+}
+
+.pin.icon.filled {
+    background-color: #333333;
+}
+
+.pin.icon.filled:before {
+    border-color: white;
+    background-color: white;
+}

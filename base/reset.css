@@ -1,0 +1,9 @@
+/* Restablecer CSS */
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /* Depurador */
+    /* outline: 1px solid; */
+}

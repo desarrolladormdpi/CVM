@@ -1,0 +1,35 @@
+/* Header (Encabezado)*/
+.header
+{
+    margin: 1rem;
+}
+/* . */
+.header__section
+{
+    background-color: #88a6a6;
+}
+/* Header (Titulo)*/
+.header__h1
+{
+    font-size: 2rem;
+    text-align: center;
+    cursor: pointer;
+}
+/* header__input (Entrada de texto) */
+.header__input
+{
+    display: none;
+    background-color: inherit;
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+}
+/* 320 480 768 960 1024 1328 */
+/* Breakpoints de resolución para computadora */
+@media screen and (max-width: 1023px)
+{
+    .header__h1
+    {
+        font-size: 2.5rem;
+    }
+}

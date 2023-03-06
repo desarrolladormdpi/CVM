@@ -1,0 +1,14 @@
+@charset "UTF-8";
+@import url(../base/reset.css);
+@import url(../theme/body.css);
+@import url(../theme/header.css);
+@import url(../theme/figure.css);
+@import url(../theme/section__Perfil-Personal.css);
+@import url(../layout/icon-social/icon-ubicacion.css);
+@import url(../layout/icon-social/icon-movil.css);
+@import url(../layout/icon-social/icon-mail.css);
+@import url(../theme/section__contacto.css);
+@import url(../theme/section__habilidades.css);
+@import url(../theme/section__historial-academico.css);
+@import url(../theme/section__conocimiento.css);
+@import url(../theme/footer.css);

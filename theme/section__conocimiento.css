@@ -1,0 +1,29 @@
+/* 320 480 768 960 1024 1328 */
+/* Breakpoints de resolución de tablet a computadora */
+@media screen and (min-width: 768px) and (max-width: 1023px)
+{
+    .body
+    {
+        width: 768px;
+    }
+    .main__section-conocimiento
+    {
+        position: absolute;
+        width: 52%;
+        right: 1rem;
+        top: 24.5rem;
+    }
+}
+
+/* 320 480 768 960 1024 1328 */
+/* Breakpoints de resolución para computadora */
+@media screen and (min-width: 1024px)
+{
+    .main__section-conocimiento
+    {
+        position: absolute;
+        width: 63%;
+        right: 1rem;
+        top: 23.9rem;
+    }
+}

@@ -1,0 +1,68 @@
+/* body Todo el contenido web*/
+.body
+{
+    background-color: #bbcccc;
+    /* Centrar Horizontal 1 */
+    margin-left: auto;
+    margin-right: auto;
+    /* Centrar Horizontal 2  ver no anda*/
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    /* Para poder colocar al Historial académico y a conocimiento como columna*/
+    position: relative;
+}
+
+/* 320 480 768 960 1024 1328 */
+/* Breakpoints de resolución para móvil */
+@media screen and (max-width: 320px)
+{
+    .body
+    {
+        width: 320px;
+    }
+}
+
+/* 320 480 768 960 1024 1328 */
+/* Breakpoints de resolución para computadora */
+@media screen and (max-width: 1023px)
+{
+    .main__h2
+    {
+        font-size: 2.5rem;
+    }
+    .main__p
+    {
+        font-size: 1.5rem;
+    }
+    .main__ol
+    {
+        font-size: 1.5rem;
+    }
+    .main__ul
+    {
+        font-size: 1.5rem;
+    }
+    .main__h2-historico-conocimiento
+    {
+        font-size: 2.5rem;
+    }
+    .main__h3
+    {
+        font-size: 2rem;
+    }
+    .footer
+    {
+        font-size: 1.5rem;
+    }
+}
+
+/* 320 480 768 960 1024 1328 */
+/* Breakpoints de resolución para computadora */
+@media screen and (min-width: 1024px)
+{
+    .body
+    {
+        width: 1024px;
+    }
+}

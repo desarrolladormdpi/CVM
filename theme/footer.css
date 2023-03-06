@@ -1,0 +1,13 @@
+/* footer (Pie de pagina) */
+.footer
+{
+    background-color: #88a6a6;
+    margin: 1rem;
+}
+/* footer__copyright (Derecho de Autor) */
+.footer__copyright
+{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}

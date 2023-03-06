@@ -1,0 +1,47 @@
+/* Insertar el icono mail de la siguiente forma */
+/* <div class="mail icon"></div> */
+/* <div class="mail icon filled"></div> */
+.mail.icon {
+    color: #333333;
+    position: absolute;
+
+    margin-left: 2px;
+    margin-top: 4px;
+    width: 15px;
+    height: 10px;
+    border: solid 1px currentColor;
+    border-radius: 1px;
+}
+
+.mail.icon:before,
+.mail.icon:after {
+    content: '';
+    position: absolute;
+
+    width: 1px;
+    height: 10px;
+    background-color: currentColor;
+    -webkit-transform-origin: bottom;
+    transform-origin: bottom;
+    left: 7px;
+    top: -4px;
+}
+
+.mail.icon:before {
+    -webkit-transform: rotate(-54deg);
+    transform: rotate(-54deg);
+}
+
+.mail.icon:after {
+    -webkit-transform: rotate(54deg);
+    transform: rotate(54deg);
+}
+
+.mail.icon.filled {
+    background-color: currentColor;
+}
+
+.mail.icon.filled:before,
+.mail.icon.filled:after {
+    background-color: white;
+}
